@@ -1,0 +1,90 @@
+2026-04-06 19:12:07,655 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-06 19:12:07,656 - INFO - Generando 200 vehículos...
+2026-04-06 19:12:07,677 - ERROR -  Error durante la generación: error de sintaxis en o cerca de «#»
+LINE 2:             #TO DO#
+                    ^
+
+2026-04-06 19:12:07,677 - INFO - 
+ Conexión cerrada
+2026-04-06 19:22:11,147 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-06 19:22:11,147 - INFO - Generando 200 vehículos...
+2026-04-06 19:22:11,191 - INFO -  200 vehículos insertados
+2026-04-06 19:22:11,191 - INFO - Generando 400 conductores...
+2026-04-06 19:22:11,291 - INFO -  400 conductores insertados
+2026-04-06 19:22:11,291 - INFO - Generando 50 rutas...
+2026-04-06 19:22:11,302 - INFO -  50 rutas insertadas
+2026-04-06 19:22:11,302 - INFO - Generando 100000 viajes...
+2026-04-06 19:22:15,993 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-06 19:22:16,900 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-06 19:22:17,871 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-06 19:22:18,687 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-06 19:22:19,497 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-06 19:22:20,311 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-06 19:22:21,121 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-06 19:22:22,044 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-06 19:22:22,843 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-06 19:22:23,650 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-06 19:22:24,371 - INFO -  100000 viajes insertados
+2026-04-06 19:22:24,377 - INFO - Generando 400000 entregas...
+2026-04-06 19:23:26,258 - ERROR -  Error durante la generación: no existe el esquema «np»
+LINE 5: ...olina Castro Cuesta', 'Calle 169Z # 40-23, Cali', np.float64...
+                                                             ^
+
+2026-04-06 19:23:26,387 - INFO - 
+ Conexión cerrada
+2026-04-06 19:40:20,111 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-06 19:40:20,112 - INFO - Generando 200 vehículos...
+2026-04-06 19:40:20,154 - INFO -  200 vehículos insertados
+2026-04-06 19:40:20,154 - INFO - Generando 400 conductores...
+2026-04-06 19:40:20,249 - INFO -  400 conductores insertados
+2026-04-06 19:40:20,250 - INFO - Generando 50 rutas...
+2026-04-06 19:40:20,258 - INFO -  50 rutas insertadas
+2026-04-06 19:40:20,258 - INFO - Generando 100000 viajes...
+2026-04-06 19:40:25,057 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-06 19:40:25,888 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-06 19:40:26,707 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-06 19:40:27,730 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-06 19:40:28,697 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-06 19:40:29,672 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-06 19:40:30,651 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-06 19:40:31,629 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-06 19:40:32,620 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-06 19:40:33,709 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-06 19:40:34,652 - INFO -  100000 viajes insertados
+2026-04-06 19:40:34,658 - INFO - Generando 400000 entregas...
+2026-04-06 19:41:35,839 - INFO -   Progreso: 0/400001 deliveries insertados
+2026-04-06 19:41:40,173 - INFO -   Progreso: 50000/400001 deliveries insertados
+2026-04-06 19:41:44,455 - INFO -   Progreso: 100000/400001 deliveries insertados
+2026-04-06 19:41:48,796 - INFO -   Progreso: 150000/400001 deliveries insertados
+2026-04-06 19:41:53,083 - INFO -   Progreso: 200000/400001 deliveries insertados
+2026-04-06 19:41:57,257 - INFO -   Progreso: 250000/400001 deliveries insertados
+2026-04-06 19:42:01,561 - INFO -   Progreso: 300000/400001 deliveries insertados
+2026-04-06 19:42:05,711 - INFO -   Progreso: 350000/400001 deliveries insertados
+2026-04-06 19:42:09,784 - INFO -   Progreso: 400000/400001 deliveries insertados
+2026-04-06 19:42:09,784 - INFO -  400001 entregas insertadas
+2026-04-06 19:42:09,870 - INFO - Generando 5000 registros de mantenimiento...
+2026-04-06 19:42:10,741 - INFO -  4920 mantenimientos insertados
+2026-04-06 19:42:10,741 - INFO - 
+ RESUMEN DE GENERACIÓN DE DATOS
+2026-04-06 19:42:10,741 - INFO - ==================================================
+2026-04-06 19:42:10,742 - INFO -   vehicles: 200 registros
+2026-04-06 19:42:10,742 - INFO -   drivers: 400 registros
+2026-04-06 19:42:10,742 - INFO -   routes: 48 registros
+2026-04-06 19:42:10,747 - INFO -   trips: 100,000 registros
+2026-04-06 19:42:10,775 - INFO -   deliveries: 400,001 registros
+2026-04-06 19:42:10,775 - INFO -   maintenance: 4,920 registros
+2026-04-06 19:42:10,776 - INFO - 
+  TOTAL: 505,569 registros
+2026-04-06 19:42:10,878 - INFO - 
+  Entregas por viaje: AVG=4.0, MIN=2, MAX=6
+2026-04-06 19:42:10,878 - INFO - 
+ VALIDANDO CALIDAD DE DATOS...
+2026-04-06 19:42:10,889 - INFO -    Integridad referencial - Trips sin vehículo válido: OK
+2026-04-06 19:42:11,030 - INFO -    Integridad referencial - Deliveries sin trip válido: OK
+2026-04-06 19:42:11,039 - INFO -    Consistencia temporal - Trips con arrival < departure: OK
+2026-04-06 19:42:11,062 - INFO -    Consistencia de peso - Trips excediendo capacidad: OK
+2026-04-06 19:42:11,062 - INFO -    Entregas sin tracking number: OK
+2026-04-06 19:42:11,066 - INFO - 
+ Resumen guardado en generation_summary.json
+2026-04-06 19:42:11,066 - INFO - 
+ Conexión cerrada

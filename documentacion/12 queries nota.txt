@@ -1,0 +1,243 @@
+fleetlogix=# \i 'E:/ProyectoM2_CristianAtrio/12Queries.sql'
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:23: NOTICE:  la relaciÃ³n Â«resultados_benchmark_comparativoÂ» ya existe, omitiendo
+CREATE TABLE
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:37: NOTICE:  la relaciÃ³n Â«planes_ejecucion_detalladosÂ» ya existe, omitiendo
+CREATE TABLE
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:48: NOTICE:  la relaciÃ³n Â«metricas_detalladas_performanceÂ» ya existe, omitiendo
+CREATE TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:221: ERROR:  la relaciÃ³n Â«queries_definicionesÂ» ya existe
+INSERT 0 12
+TRUNCATE TABLE
+TRUNCATE TABLE
+TRUNCATE TABLE
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  === INICIANDO FASE 1: EJECUCIÃ"N SIN Ã?NDICES ===
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_vehicles_type_coveringÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_trips_status_brinÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_trips_status_hashÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_trips_driver_comprehensiveÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_deliveries_punctuality_comprehensiveÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_routes_distance_coveringÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_deliveries_datetime_brinÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_deliveries_hour_dowÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_trips_departure_completedÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_deliveries_status_datetimeÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_drivers_license_statusÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  el Ã­ndice Â«idx_maintenance_comprehensiveÂ» no existe, omitiendo
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 1 (sin_indices): Fa_B_Conteo_Vehiculos_Tipo_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 1 (sin_indices): 2.687000 ms, 4 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 1 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 2 (sin_indices): Fa_B_Licencias_Proximas_Vencer_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 2 (sin_indices): 2.811000 ms, 6 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 2 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 3 (sin_indices): Fa_B_Viajes_por_Estado_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 3 (sin_indices): 22.384000 ms, 1 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 3 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 4 (sin_indices): Fa_I_Entregas_por_Ciudad_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 4 (sin_indices): 45.667000 ms, 5 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 4 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 5 (sin_indices): Fa_I_Conductores_Activos_Viajes_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 5 (sin_indices): 33.053000 ms, 373 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 5 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 6 (sin_indices): Fa_I_Promedio_Entregas_Conductor_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 6 (sin_indices): 66.430000 ms, 373 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 6 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 7 (sin_indices): Fa_I_Rutas_Consumo_Combustible_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 7 (sin_indices): 101.335000 ms, 10 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 7 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 8 (sin_indices): Fa_I_Entregas_Retrasadas_Dia_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 8 (sin_indices): 212.822000 ms, 7 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 8 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 9 (sin_indices): Fa_C_Costo_Mantenimiento_Km_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 9 (sin_indices): 36.329000 ms, 4 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 9 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 10 (sin_indices): Fa_C_Ranking_Conductores_Eficiencia_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 10 (sin_indices): 66.044000 ms, 15 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 10 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 11 (sin_indices): Fa_C_Analisis_Tendencia_Viajes_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 11 (sin_indices): 20.502000 ms, 6 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 11 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Ejecutando Query 12 (sin_indices): Fa_C_Pivot_Entregas_Hora_Dia_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Query 12 (sin_indices): 214.932000 ms, 17 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  Capturando EXPLAIN ANALYZE para Query 12 (sin_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:353: NOTICE:  === FASE 1 COMPLETADA: 12 queries ejecutadas SIN Ã­ndices ===
+DO
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: NOTICE:  === APLICANDO OPTIMIZACIONES ===
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  analizando Â«public.tripsÂ»
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  Â«tripsÂ»: se procesaron 1031 de 1031 pÃ¡ginas, que contenÃ­an 100000 filas vigentes y 0 filas no vigentes; 100000 filas en la muestra, 100000 total de filas estimadas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  finished analyzing table "fleetlogix.public.trips"
+tasa lectura promedio: 0.000 MB/s, tasa escritura promedio: 0.114 MB/s
+uso de bÃºfers: 1153 aciertos, 0 fallos, 3 ensuciados
+uso de WAL: 54 registros, 0 imÃ¡genes de pÃ¡gina completa, 30449 bytes, 0 bÃºfers llenos
+uso de sistema: CPU: usuario: 0.20 s, sistema: 0.00 s, transcurrido: 0.20 s
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  analizando Â«public.deliveriesÂ»
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  Â«deliveriesÂ»: se procesaron 7291 de 7291 pÃ¡ginas, que contenÃ­an 400001 filas vigentes y 0 filas no vigentes; 150000 filas en la muestra, 400001 total de filas estimadas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  finished analyzing table "fleetlogix.public.deliveries"
+tasa lectura promedio: 13.854 MB/s, tasa escritura promedio: 0.012 MB/s
+uso de bÃºfers: 1834 aciertos, 5616 fallos, 5 ensuciados
+uso de WAL: 72 registros, 0 imÃ¡genes de pÃ¡gina completa, 41551 bytes, 0 bÃºfers llenos
+uso de sistema: CPU: usuario: 3.07 s, sistema: 0.01 s, transcurrido: 3.16 s
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  analizando Â«public.routesÂ»
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  Â«routesÂ»: se procesaron 1 de 1 pÃ¡ginas, que contenÃ­an 48 filas vigentes y 0 filas no vigentes; 48 filas en la muestra, 48 total de filas estimadas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: INFO:  finished analyzing table "fleetlogix.public.routes"
+tasa lectura promedio: 0.000 MB/s, tasa escritura promedio: 0.000 MB/s
+uso de bÃºfers: 53 aciertos, 0 fallos, 0 ensuciados
+uso de WAL: 11 registros, 0 imÃ¡genes de pÃ¡gina completa, 1130 bytes, 0 bÃºfers llenos
+uso de sistema: CPU: usuario: 0.00 s, sistema: 0.00 s, transcurrido: 0.00 s
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:387: NOTICE:  === 11 Ã?NDICES CREADOS Y ESTADÃ?STICAS ACTUALIZADAS ===
+DO
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  === INICIANDO FASE 2: EJECUCIÃ"N CON Ã?NDICES ===
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 1 (con_indices): Fa_B_Conteo_Vehiculos_Tipo_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 1 (con_indices): 0.527000 ms, 4 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 1 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 2 (con_indices): Fa_B_Licencias_Proximas_Vencer_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 2 (con_indices): 0.490000 ms, 6 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 2 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 3 (con_indices): Fa_B_Viajes_por_Estado_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 3 (con_indices): 18.111000 ms, 1 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 3 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 4 (con_indices): Fa_I_Entregas_por_Ciudad_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 4 (con_indices): 35.255000 ms, 5 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 4 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 5 (con_indices): Fa_I_Conductores_Activos_Viajes_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 5 (con_indices): 43.335000 ms, 373 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 5 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 6 (con_indices): Fa_I_Promedio_Entregas_Conductor_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 6 (con_indices): 180.574000 ms, 373 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 6 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 7 (con_indices): Fa_I_Rutas_Consumo_Combustible_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 7 (con_indices): 81.405000 ms, 10 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 7 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 8 (con_indices): Fa_I_Entregas_Retrasadas_Dia_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 8 (con_indices): 20.952000 ms, 7 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 8 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 9 (con_indices): Fa_C_Costo_Mantenimiento_Km_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 9 (con_indices): 38.555000 ms, 4 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 9 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 10 (con_indices): Fa_C_Ranking_Conductores_Eficiencia_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 10 (con_indices): 103.572000 ms, 15 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 10 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 11 (con_indices): Fa_C_Analisis_Tendencia_Viajes_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 11 (con_indices): 10.924000 ms, 6 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 11 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Ejecutando Query 12 (con_indices): Fa_C_Pivot_Entregas_Hora_Dia_V2
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Query 12 (con_indices): 19.184000 ms, 17 filas
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  Capturando EXPLAIN ANALYZE para Query 12 (con_indices)
+psql:E:/ProyectoM2_CristianAtrio/12Queries.sql:437: NOTICE:  === FASE 2 COMPLETADA: 12 queries ejecutadas CON Ã­ndices ===
+DO
+                          titulo
+----------------------------------------------------------
+ REPORTE COMPLETO DE OPTIMIZACI├ôN - RESULTADOS DETALLADOS
+(1 fila)
+
+
+ query_numero |              query_nombre              | complejidad |     categoria_negocio     |                                              problema_negocio                                               | tiempo_sin_indices_ms | tiempo_con_indices_ms | mejora_absoluta_ms | mejora_porcentual | estado_optimizacion
+--------------+----------------------------------------+-------------+---------------------------+-------------------------------------------------------------------------------------------------------------+-----------------------+-----------------------+--------------------+-------------------+---------------------
+           12 | Fa_C_Pivot_Entregas_Hora_Dia_V2        | COMPLEJA    | OPTIMIZACI├ôN OPERATIVA    | Matriz de distribuci├│n horaria de entregas para optimizaci├│n de recursos y turnos                           |               214.932 |                19.184 |            195.748 |             91.07 | ­ƒÜÇ EXCELENTE
+            8 | Fa_I_Entregas_Retrasadas_Dia_V2        | INTERMEDIA  | CALIDAD DE SERVICIO       | An├ílisis de puntualidad de entregas por d├¡a de la semana para mejorar SLA                                   |               212.822 |                20.952 |            191.870 |             90.16 | ­ƒÜÇ EXCELENTE
+            2 | Fa_B_Licencias_Proximas_Vencer_V2      | BASICA      | GESTI├ôN DE CONDUCTORES    | Gesti├│n preventiva de documentaci├│n de conductores para evitar sanciones regulatorias                       |                 2.811 |                 0.490 |              2.321 |             82.57 | ­ƒæì BUENA
+            1 | Fa_B_Conteo_Vehiculos_Tipo_V2          | BASICA      | GESTI├ôN DE FLOTA          | An├ílisis de distribuci├│n de flota por tipo de veh├¡culo para planificaci├│n de mantenimiento y renovaci├│n     |                 2.687 |                 0.527 |              2.160 |             80.39 | ­ƒæì BUENA
+           11 | Fa_C_Analisis_Tendencia_Viajes_V2      | COMPLEJA    | PLANIFICACI├ôN ESTRAT├ëGICA | An├ílisis de tendencias mensuales para forecasting y planificaci├│n estrat├®gica                               |                20.502 |                10.924 |              9.578 |             46.72 | ­ƒæì BUENA
+            4 | Fa_I_Entregas_por_Ciudad_V2            | INTERMEDIA  | AN├üLISIS LOG├ìSTICO        | An├ílisis de volumen de entregas por ciudad destino para optimizaci├│n log├¡stica                              |                45.667 |                35.255 |             10.412 |             22.80 | ­ƒæì BUENA
+            7 | Fa_I_Rutas_Consumo_Combustible_V2      | INTERMEDIA  | OPTIMIZACI├ôN DE COSTOS    | Identificaci├│n de rutas con mayor consumo de combustible para optimizaci├│n de costos                        |               101.335 |                81.405 |             19.930 |             19.67 | ­ƒæì BUENA
+            3 | Fa_B_Viajes_por_Estado_V2              | BASICA      | MONITOREO OPERATIVO       | Monitoreo del estado operativo de la flota en tiempo real                                                   |                22.384 |                18.111 |              4.273 |             19.09 | ­ƒæì BUENA
+            9 | Fa_C_Costo_Mantenimiento_Km_V2         | COMPLEJA    | AN├üLISIS FINANCIERO       | C├ílculo de costos operativos por tipo de veh├¡culo para decisiones de renovaci├│n de flota                    |                36.329 |                38.555 |             -2.226 |             -6.13 | ­ƒöÂ LEVE CA├ìDA
+            5 | Fa_I_Conductores_Activos_Viajes_V2     | INTERMEDIA  | GESTI├ôN DE CONDUCTORES    | Evaluaci├│n de productividad y rendimiento de conductores activos                                            |                33.053 |                43.335 |            -10.282 |            -31.11 | ÔÜá´©Å EMPEOR├ô
+           10 | Fa_C_Ranking_Conductores_Eficiencia_V2 | COMPLEJA    | GESTI├ôN DE CONDUCTORES    | Ranking integral de conductores basado en m├║ltiples m├®tricas de eficiencia para programas de reconocimiento |                66.044 |               103.572 |            -37.528 |            -56.82 | ÔÜá´©Å EMPEOR├ô
+            6 | Fa_I_Promedio_Entregas_Conductor_V2    | INTERMEDIA  | GESTI├ôN DE CONDUCTORES    | C├ílculo de m├®tricas de eficiencia operativa por conductor para incentivos                                   |                66.430 |               180.574 |           -114.144 |           -171.83 | ÔÜá´©Å EMPEOR├ô
+(12 filas)
+
+
+     categoria_negocio     | total_queries | avg_sin_indices_ms | avg_con_indices_ms | avg_mejora_ms | avg_mejora_porcentual | queries_mejoradas
+---------------------------+---------------+--------------------+--------------------+---------------+-----------------------+-------------------
+ OPTIMIZACI├ôN OPERATIVA    |             1 |             214.93 |              19.18 |        195.75 |                 91.07 |                 1
+ CALIDAD DE SERVICIO       |             1 |             212.82 |              20.95 |        191.87 |                 90.16 |                 1
+ GESTI├ôN DE FLOTA          |             1 |               2.69 |               0.53 |          2.16 |                 80.39 |                 1
+ PLANIFICACI├ôN ESTRAT├ëGICA |             1 |              20.50 |              10.92 |          9.58 |                 46.72 |                 1
+ AN├üLISIS LOG├ìSTICO        |             1 |              45.67 |              35.26 |         10.41 |                 22.80 |                 1
+ OPTIMIZACI├ôN DE COSTOS    |             1 |             101.34 |              81.41 |         19.93 |                 19.67 |                 1
+ MONITOREO OPERATIVO       |             1 |              22.38 |              18.11 |          4.27 |                 19.09 |                 1
+ AN├üLISIS FINANCIERO       |             1 |              36.33 |              38.56 |         -2.23 |                 -6.13 |                 0
+ GESTI├ôN DE CONDUCTORES    |             4 |              42.08 |              81.99 |        -39.91 |                -44.30 |                 1
+(9 filas)
+
+
+             titulo
+---------------------------------
+ AN├üLISIS DE PLANES DE EJECUCI├ôN
+(1 fila)
+
+
+ query_numero |              query_nombre              |    fase     | total_planes | avg_tiempo_plan_ms | total_filas_plan
+--------------+----------------------------------------+-------------+--------------+--------------------+------------------
+            1 | Fa_B_Conteo_Vehiculos_Tipo_V2          | con_indices |            2 |               8.63 |                8
+            1 | Fa_B_Conteo_Vehiculos_Tipo_V2          | sin_indices |            1 |               5.09 |                4
+            2 | Fa_B_Licencias_Proximas_Vencer_V2      | con_indices |            2 |               5.66 |               12
+            2 | Fa_B_Licencias_Proximas_Vencer_V2      | sin_indices |            1 |              12.09 |                6
+            3 | Fa_B_Viajes_por_Estado_V2              | con_indices |            2 |            2911.23 |                2
+            3 | Fa_B_Viajes_por_Estado_V2              | sin_indices |            1 |            2531.01 |                1
+            4 | Fa_I_Entregas_por_Ciudad_V2            | con_indices |            2 |            9598.08 |               10
+            4 | Fa_I_Entregas_por_Ciudad_V2            | sin_indices |            1 |           13665.90 |                5
+            5 | Fa_I_Conductores_Activos_Viajes_V2     | con_indices |            2 |            3638.01 |              248
+            5 | Fa_I_Conductores_Activos_Viajes_V2     | sin_indices |            1 |            3253.35 |              124
+            6 | Fa_I_Promedio_Entregas_Conductor_V2    | con_indices |            2 |           19575.09 |              134
+            6 | Fa_I_Promedio_Entregas_Conductor_V2    | sin_indices |            1 |           14276.28 |               67
+            7 | Fa_I_Rutas_Consumo_Combustible_V2      | con_indices |            2 |            3863.47 |               20
+            7 | Fa_I_Rutas_Consumo_Combustible_V2      | sin_indices |            1 |            3832.14 |               10
+            8 | Fa_I_Entregas_Retrasadas_Dia_V2        | con_indices |            2 |            8370.82 |            60698
+            8 | Fa_I_Entregas_Retrasadas_Dia_V2        | sin_indices |            1 |           17429.01 |            30637
+            9 | Fa_C_Costo_Mantenimiento_Km_V2         | con_indices |            2 |            3525.71 |                8
+            9 | Fa_C_Costo_Mantenimiento_Km_V2         | sin_indices |            1 |            3508.29 |                4
+           10 | Fa_C_Ranking_Conductores_Eficiencia_V2 | con_indices |            2 |           15685.84 |               30
+           10 | Fa_C_Ranking_Conductores_Eficiencia_V2 | sin_indices |            1 |           15870.42 |               15
+           11 | Fa_C_Analisis_Tendencia_Viajes_V2      | con_indices |            2 |            9757.11 |               12
+           11 | Fa_C_Analisis_Tendencia_Viajes_V2      | sin_indices |            1 |           15994.36 |                6
+           12 | Fa_C_Pivot_Entregas_Hora_Dia_V2        | con_indices |            2 |             432.31 |              128
+           12 | Fa_C_Pivot_Entregas_Hora_Dia_V2        | sin_indices |            1 |           12891.79 |               66
+(24 filas)
+
+
+             titulo             |   valor
+--------------------------------+-----------
+ RESUMEN EJECUTIVO FINAL        |
+ Total queries ejecutadas       | 12
+ Queries mejoradas              | 8
+ Mejora promedio                | 15.55%
+ Reducci├│n total de tiempo      | 272.11 ms
+ Planes de ejecuci├│n capturados | 36
+(6 filas)
+
+
+                    mensaje_final
+------------------------------------------------------
+ Ô£à BENCHMARK COMPLETADO - TODOS LOS DATOS CAPTURADOS
+(1 fila)
+
+
+                     siguiente_paso
+--------------------------------------------------------
+ ­ƒôè Ejecuta los siguientes queries para exportar datos:
+(1 fila)
+
+
+                                    export_1
+--------------------------------------------------------------------------------
+ 1. SELECT * FROM resultados_benchmark_comparativo ORDER BY query_numero, fase;
+(1 fila)
+
+
+                                 export_2
+---------------------------------------------------------------------------
+ 2. SELECT * FROM planes_ejecucion_detallados ORDER BY query_numero, fase;
+(1 fila)
+
+
+                                   export_3
+-------------------------------------------------------------------------------
+ 3. SELECT * FROM metricas_detalladas_performance ORDER BY query_numero, fase;
+(1 fila)
+
+
+fleetlogix=#

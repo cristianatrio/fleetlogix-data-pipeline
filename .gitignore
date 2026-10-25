@@ -1,0 +1,21 @@
+# Credenciales
+.env
+.secrets/
+*.p8
+*.pem
+
+# Entorno virtual y cache
+env/
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Config local de Claude Code
+.claude/
+
+# Datos generados (pesados, se regeneran con los scripts)
+fact_deliveries_*.csv
+
+# Captura con ID de cuenta AWS visible
+documentacion/Captura de pantalla*.png

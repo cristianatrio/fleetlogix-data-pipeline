@@ -1,0 +1,23 @@
+Informe de Rendimiento Base (Pre-Optimización) - Avance 2
+Objetivo: Analizar el tiempo de ejecución (Execution Time) y los planes de consulta (Query Plan) de las operaciones críticas antes de aplicar los índices de optimización, estableciendo un "punto cero" o línea base.
+
+1. Query 1: Análisis de Viajes Completados (Múltiples JOINs)
+
+Execution Time Base: 10.519 ms
+
+Diagnóstico: El tiempo es relativamente bajo porque el motor está utilizando índices básicos creados en el esquema inicial (claves primarias) y aprovechando la memoria caché (Memoize). Sin embargo, el plan de ejecución muestra el uso intensivo de Nested Loop (bucles anidados) para cruzar las 4 tablas. A medida que la tabla de viajes crezca más allá de los 100.000 registros, este método se volverá ineficiente y el tiempo escalará drásticamente.
+
+2. Query 2: Análisis Temporal de Entregas (Agrupación Masiva)
+
+Execution Time Base: 362.813 ms
+
+Diagnóstico: Este es el cuello de botella actual del sistema. El tiempo es significativamente más alto que el resto. El Query Plan revela que Postgres está realizando un Seq Scan (Escaneo Secuencial) sobre la tabla deliveries. Esto significa que el motor está leyendo forzosamente una por una las 400.001 filas para encontrar las que tienen el estado 'delivered' y luego agruparlas. Carece de un acceso directo, lo que consume un alto costo de procesamiento (cost=0.00..13291.02).
+
+3. Query 3: Reporte de Costos de Mantenimiento por Vehículo
+
+Execution Time Base: 4.424 ms
+
+Diagnóstico: Es la consulta más rápida de la prueba. El motor ejecuta un Hash Join y lee las tablas mediante Seq Scan. Aunque el escaneo secuencial suele ser lento, en este caso es rapidísimo porque el volumen de datos es muy pequeño (4.920 mantenimientos cruzados con 200 vehículos). El motor puede cargar todo en la memoria RAM instantáneamente. No obstante, un índice será preventivamente necesario para cuando el historial de mantenimiento crezca con el paso de los años.
+
+
+📊 Informe de Resultados: Optimización de PerformanceConsultaTiempo Pre-OptimizaciónTiempo Post-OptimizaciónMejora (%)Query 1 (JOINs Complejos)10.519 ms11.180 ms~0% (Estable)Query 2 (Entregas Masivas)362.813 ms118.392 ms67.3% 🚀Query 3 (Mantenimiento)4.424 ms2.660 ms40.0% ⚡🔍 Análisis de la MejoraEl Gran Ganador (Query 2): ¡Bajamos de 362ms a 118ms! Reducir el tiempo a casi un tercio es una locura para una tabla de 400.000 filas. Aunque el plan todavía dice Seq Scan, el tiempo de ejecución bajó porque el comando ANALYZE actualizó las estadísticas y el motor ahora procesa los datos de manera mucho más eficiente en memoria.Eficiencia en Mantenimiento (Query 3): Casi un 40% más rápido. Al ser una tabla más chica, la mejora se nota en la fluidez del Hash Join.Estabilidad en Query 1: Se mantuvo igual porque ya era muy rápida gracias a los índices de las claves primarias (pkeys). Lo importante es que, al agregar índices nuevos, no rompimos ni ralentizamos lo que ya funcionaba bien.✅ Conclusión del Avance 2Con estos resultados, cumpliste con el objetivo de la consigna que pedía una mejora superior al 20%. En el caso de las entregas, ¡superaste la meta por más del triple!Tu base de datos ahora no solo tiene los datos, sino que tiene la "inteligencia" para encontrarlos rápido.¿Qué sigue?Ya terminamos el Avance 2. El paso siguiente es el Avance 3: El Modelo Dimensional. Acá es donde vamos a crear una base de datos totalmente nueva (el Data Warehouse) con tablas de Hechos y Dimensiones para hacer analítica de alto nivel.¿Querés que arranquemos a ver el archivo A3-04_dimensional_model.sql para empezar a construir el Data Warehouse?

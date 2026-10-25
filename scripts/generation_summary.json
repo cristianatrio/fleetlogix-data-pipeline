@@ -1,0 +1,13 @@
+{
+  "generation_date": "2026-04-06T19:42:10.878773",
+  "total_records": 505569,
+  "table_counts": {
+    "vehicles": 200,
+    "drivers": 400,
+    "routes": 50,
+    "trips": 100000,
+    "deliveries": 400001,
+    "maintenance": 4920
+  },
+  "validations_passed": true
+}

@@ -1,0 +1,712 @@
+2026-04-09 20:58:51,147 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 20:58:51,147 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 20:58:51,147 - INFO - Presiona Ctrl+C para detener
+2026-04-09 20:58:51,148 - INFO -  Iniciando ETL - Batch ID: 1775779131
+2026-04-09 20:58:51,354 - INFO -  Conectado a PostgreSQL
+2026-04-09 20:58:51,354 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 20:58:51,354 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 20:58:51,372 - ERROR -  Error en conexión: 251006: 251006: Password is empty
+2026-04-09 21:02:02,590 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:02:02,590 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:02:02,590 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:02:02,590 - INFO -  Iniciando ETL - Batch ID: 1775779322
+2026-04-09 21:02:02,672 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:02:02,672 - ERROR -  Error en conexión: name 'serialization' is not defined
+2026-04-09 21:03:57,758 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:03:57,758 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:03:57,758 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:03:57,758 - INFO -  Iniciando ETL - Batch ID: 1775779437
+2026-04-09 21:03:57,893 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:03:57,943 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:03:57,944 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:04:01,788 - INFO -  Conectado a Snowflake
+2026-04-09 21:04:01,788 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:04:02,119 - ERROR -  Error en extracción: Execution failed on sql '
+        #TO DO#
+        ': error de sintaxis en o cerca de «#»
+LINE 2:         #TO DO#
+                ^
+
+2026-04-09 21:04:02,266 - ERROR -  Error calculando totales: 001003 (42000): 01c39aa4-0001-52dc-0001-1d3a00019312: SQL compilation error:
+syntax error line 1 at position 0 unexpected '#T'.
+2026-04-09 21:04:02,426 - INFO -  Conexiones cerradas
+2026-04-09 21:04:02,426 - INFO -  ETL completado en 4.67 segundos
+2026-04-09 21:04:02,427 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-09 21:08:15,765 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:08:15,766 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:08:15,766 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:08:15,766 - INFO -  Iniciando ETL - Batch ID: 1775779695
+2026-04-09 21:08:15,975 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:08:16,011 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:08:16,011 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:08:19,174 - INFO -  Conectado a Snowflake
+2026-04-09 21:08:19,174 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:08:25,325 - INFO -  Extraídos 400001 registros
+2026-04-09 21:08:25,325 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:08:25,767 - ERROR -  Error en transformación: Out of bounds nanosecond timestamp: 9999-12-31, at position 0
+2026-04-09 21:08:26,193 - ERROR -  Error calculando totales: 002003 (42S02): 01c39aa8-0001-52a6-0001-1d3a0001a012: SQL compilation error:
+Object 'FACT_DELIVERIES' does not exist or not authorized.
+2026-04-09 21:08:26,329 - INFO -  Conexiones cerradas
+2026-04-09 21:08:26,329 - INFO -  ETL completado en 10.56 segundos
+2026-04-09 21:08:26,329 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-09 21:11:24,637 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:11:24,638 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:11:24,638 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:11:24,638 - INFO -  Iniciando ETL - Batch ID: 1775779884
+2026-04-09 21:11:24,757 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:11:24,807 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:11:24,808 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:11:28,023 - INFO -  Conectado a Snowflake
+2026-04-09 21:11:28,023 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:11:33,957 - INFO -  Extraídos 400001 registros
+2026-04-09 21:11:33,957 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:11:34,392 - ERROR -  Error en transformación: Out of bounds nanosecond timestamp: 9999-12-31, at position 0
+2026-04-09 21:11:34,694 - ERROR -  Error calculando totales: 002003 (42S02): 01c39aac-0001-52dc-0001-1d3a00019336: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-09 21:11:34,835 - INFO -  Conexiones cerradas
+2026-04-09 21:11:34,835 - INFO -  ETL completado en 10.20 segundos
+2026-04-09 21:11:34,835 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-09 21:15:26,531 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:15:26,533 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:15:26,533 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:15:26,533 - INFO -  Iniciando ETL - Batch ID: 1775780126
+2026-04-09 21:15:26,673 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:15:26,725 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:15:26,725 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:15:29,891 - INFO -  Conectado a Snowflake
+2026-04-09 21:15:29,891 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:15:35,996 - INFO -  Extraídos 400001 registros
+2026-04-09 21:15:35,996 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:15:36,428 - ERROR -  Error en transformación: Out of bounds nanosecond timestamp: 9999-12-31, at position 0
+2026-04-09 21:15:36,819 - ERROR -  Error calculando totales: 002003 (42S02): 01c39ab0-0001-52dc-0001-1d3a00019342: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS."fact_deliveries"' does not exist or not authorized.
+2026-04-09 21:15:36,968 - INFO -  Conexiones cerradas
+2026-04-09 21:15:36,968 - INFO -  ETL completado en 10.43 segundos
+2026-04-09 21:15:36,970 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-09 21:20:40,004 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:20:40,004 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:20:40,004 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:20:40,005 - INFO -  Iniciando ETL - Batch ID: 1775780440
+2026-04-09 21:20:40,139 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:20:40,198 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:20:40,198 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:20:43,398 - INFO -  Conectado a Snowflake
+2026-04-09 21:20:43,398 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:20:49,242 - INFO -  Extraídos 400001 registros
+2026-04-09 21:20:49,242 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:20:49,732 - ERROR -  Error en transformación: Out of bounds nanosecond timestamp: 9999-12-31, at position 0
+2026-04-09 21:20:50,021 - ERROR -  Error calculando totales: 002003 (42S02): 01c39ab5-0001-52dc-0001-1d3a0001937a: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-09 21:20:50,151 - INFO -  Conexiones cerradas
+2026-04-09 21:20:50,152 - INFO -  ETL completado en 10.15 segundos
+2026-04-09 21:20:50,152 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-09 21:31:12,773 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:31:12,773 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:31:12,773 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:31:12,773 - INFO -  Iniciando ETL - Batch ID: 1775781072
+2026-04-09 21:31:12,961 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:31:13,035 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:31:13,035 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:31:16,318 - INFO -  Conectado a Snowflake
+2026-04-09 21:31:16,319 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:31:22,160 - INFO -  Extraídos 400001 registros
+2026-04-09 21:31:22,160 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:31:22,587 - ERROR -  Error en transformación: Out of bounds nanosecond timestamp: 9999-12-31, at position 0
+2026-04-09 21:31:22,863 - ERROR -  Error calculando totales: 002003 (42S02): 01c39abf-0001-52dc-0001-1d3a000193b2: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS."fact_deliveries"' does not exist or not authorized.
+2026-04-09 21:31:23,006 - INFO -  Conexiones cerradas
+2026-04-09 21:31:23,006 - INFO -  ETL completado en 10.23 segundos
+2026-04-09 21:31:23,006 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-09 21:33:20,116 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:33:20,116 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:33:20,116 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:33:20,116 - INFO -  Iniciando ETL - Batch ID: 1775781200
+2026-04-09 21:33:20,344 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:33:20,390 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:33:20,391 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:33:23,461 - INFO -  Conectado a Snowflake
+2026-04-09 21:33:23,461 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:33:29,714 - INFO -  Extraídos 400001 registros
+2026-04-09 21:33:29,714 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:33:30,207 - INFO -  Transformados 222867 registros
+2026-04-09 21:33:30,208 - INFO -  Cargando dimensiones...
+2026-04-09 21:33:30,413 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c39ac1-0001-52dc-0001-1d3a000193c2: SQL compilation error:
+Object 'DIM_CUSTOMER' does not exist or not authorized.
+2026-04-09 21:33:30,516 - INFO -  Cargando tabla de hechos...
+2026-04-09 21:34:11,569 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-09 21:34:11,569 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-09 21:34:11,569 - INFO - Presiona Ctrl+C para detener
+2026-04-09 21:34:11,569 - INFO -  Iniciando ETL - Batch ID: 1775781251
+2026-04-09 21:34:11,692 - INFO -  Conectado a PostgreSQL
+2026-04-09 21:34:11,743 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-09 21:34:11,743 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-09 21:34:14,784 - INFO -  Conectado a Snowflake
+2026-04-09 21:34:14,785 - INFO -  Iniciando extracción de datos...
+2026-04-09 21:34:20,144 - INFO -  Extraídos 400001 registros
+2026-04-09 21:34:20,144 - INFO -  Iniciando transformación de datos...
+2026-04-09 21:34:20,554 - INFO -  Transformados 222867 registros
+2026-04-09 21:34:20,554 - INFO -  Cargando dimensiones...
+2026-04-09 21:34:20,767 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c39ac2-0001-52dc-0001-1d3a000193ce: SQL compilation error:
+Object 'DIM_CUSTOMER' does not exist or not authorized.
+2026-04-09 21:34:20,852 - INFO -  Cargando tabla de hechos...
+2026-04-09 21:35:31,007 - ERROR -  Error cargando hechos: 001795 (42601): 01c39ac3-0001-52dc-0001-1d3a000193da: SQL compilation error: error line 10 at position 18
+maximum number of expressions in a list exceeded, expected at most 200,000, got 222,867
+2026-04-09 21:35:31,467 - ERROR -  Error calculando totales: 002003 (42S02): 01c39ac3-0001-52dc-0001-1d3a000193ea: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-09 21:35:31,614 - INFO -  Conexiones cerradas
+2026-04-09 21:35:31,614 - INFO -  ETL completado en 80.04 segundos
+2026-04-09 21:35:31,614 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 2
+}
+2026-04-10 20:39:52,837 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 20:39:52,837 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 20:39:52,838 - INFO - Presiona Ctrl+C para detener
+2026-04-10 20:39:52,838 - INFO -  Iniciando ETL - Batch ID: 1775864392
+2026-04-10 20:39:52,998 - INFO -  Conectado a PostgreSQL
+2026-04-10 20:39:53,055 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 20:39:53,056 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 20:39:56,321 - INFO -  Conectado a Snowflake
+2026-04-10 20:39:56,322 - INFO -  Iniciando extracción de datos...
+2026-04-10 20:40:03,027 - INFO -  Extraídos 400001 registros
+2026-04-10 20:40:03,027 - INFO -  Iniciando transformación de datos...
+2026-04-10 20:40:03,680 - INFO -  Transformados 222867 registros
+2026-04-10 20:40:03,682 - INFO -  Cargando dimensiones...
+2026-04-10 20:40:04,041 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c3a02c-0001-5324-0001-1d3a0002609a: SQL compilation error:
+Object 'DIM_CUSTOMER' does not exist or not authorized.
+2026-04-10 20:40:04,143 - INFO -  Cargando tabla de hechos...
+2026-04-10 20:40:32,394 - ERROR -  Error cargando hechos: 002003 (42S02): 01c3a02c-0001-5324-0001-1d3a000260a2: SQL compilation error:
+Table 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:40:32,941 - ERROR -  Error calculando totales: 002003 (42S02): 01c3a02d-0001-5300-0001-1d3a000222c2: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:40:33,086 - INFO -  Conexiones cerradas
+2026-04-10 20:40:33,087 - INFO -  ETL completado en 40.25 segundos
+2026-04-10 20:40:33,087 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 2
+}
+2026-04-10 20:42:55,459 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 20:42:55,460 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 20:42:55,461 - INFO - Presiona Ctrl+C para detener
+2026-04-10 20:42:55,461 - INFO -  Iniciando ETL - Batch ID: 1775864575
+2026-04-10 20:42:55,597 - INFO -  Conectado a PostgreSQL
+2026-04-10 20:42:55,660 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 20:42:55,661 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 20:42:58,790 - INFO -  Conectado a Snowflake
+2026-04-10 20:42:59,252 - ERROR -  Error creando tablas: 003041 (42710): 01c3a02f-0001-5324-0001-1d3a000260e6: SQL compilation error:
+Table 'DIM_CUSTOMER' already exists, but current role has no privileges on it. If this is unexpected and you cannot resolve this problem, contact your system administrator. ACCOUNTADMIN role may be required to manage the privileges on the object.
+2026-04-10 20:42:59,252 - INFO -  Iniciando extracción de datos...
+2026-04-10 20:43:05,495 - INFO -  Extraídos 400001 registros
+2026-04-10 20:43:05,495 - INFO -  Iniciando transformación de datos...
+2026-04-10 20:43:06,024 - INFO -  Transformados 222867 registros
+2026-04-10 20:43:06,024 - INFO -  Cargando dimensiones...
+2026-04-10 20:43:06,224 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c3a02f-0001-5300-0001-1d3a00022326: SQL compilation error:
+Object 'DIM_CUSTOMER' does not exist or not authorized.
+2026-04-10 20:43:06,318 - INFO -  Cargando tabla de hechos...
+2026-04-10 20:43:33,175 - ERROR -  Error cargando hechos: 002003 (42S02): 01c3a02f-0001-5324-0001-1d3a000260ee: SQL compilation error:
+Table 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:43:33,668 - ERROR -  Error calculando totales: 002003 (42S02): 01c3a030-0001-5300-0001-1d3a0002232e: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:43:33,803 - INFO -  Conexiones cerradas
+2026-04-10 20:43:33,803 - INFO -  ETL completado en 38.34 segundos
+2026-04-10 20:43:33,803 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 3
+}
+2026-04-10 20:49:11,018 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 20:49:11,019 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 20:49:11,019 - INFO - Presiona Ctrl+C para detener
+2026-04-10 20:49:11,019 - INFO -  Iniciando ETL - Batch ID: 1775864951
+2026-04-10 20:49:11,233 - INFO -  Conectado a PostgreSQL
+2026-04-10 20:49:11,299 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 20:49:11,300 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 20:49:14,724 - INFO -  Conectado a Snowflake
+2026-04-10 20:49:15,186 - WARNING -  Aviso en create_tables (puede ignorarse si las tablas ya existen): 003041 (42710): 01c3a035-0001-5300-0001-1d3a000223d6: SQL compilation error:
+Table 'DIM_CUSTOMER' already exists, but current role has no privileges on it. If this is unexpected and you cannot resolve this problem, contact your system administrator. ACCOUNTADMIN role may be required to manage the privileges on the object.
+2026-04-10 20:49:15,186 - INFO -  Iniciando extracción de datos...
+2026-04-10 20:49:24,252 - INFO -  Extraídos 400001 registros
+2026-04-10 20:49:24,252 - INFO -  Iniciando transformación de datos...
+2026-04-10 20:49:24,789 - INFO -  Transformados 222867 registros
+2026-04-10 20:49:24,789 - INFO -  Cargando dimensiones...
+2026-04-10 20:49:24,985 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c3a035-0001-5324-0001-1d3a000261ba: SQL compilation error:
+Object 'DIM_CUSTOMER' does not exist or not authorized.
+2026-04-10 20:49:25,079 - INFO -  Cargando tabla de hechos...
+2026-04-10 20:49:54,482 - ERROR -  Error cargando hechos: 002003 (42S02): 01c3a036-0001-5300-0001-1d3a000223e2: SQL compilation error:
+Table 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:49:55,010 - ERROR -  Error calculando totales: 002003 (42S02): 01c3a036-0001-5300-0001-1d3a000223ea: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:49:55,155 - INFO -  Conexiones cerradas
+2026-04-10 20:49:55,156 - INFO -  ETL completado en 44.14 segundos
+2026-04-10 20:49:55,157 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 2
+}
+2026-04-10 20:57:33,190 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 20:57:33,191 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 20:57:33,191 - INFO - Presiona Ctrl+C para detener
+2026-04-10 20:57:33,191 - INFO -  Iniciando ETL - Batch ID: 1775865453
+2026-04-10 20:57:33,473 - INFO -  Conectado a PostgreSQL
+2026-04-10 20:57:33,540 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 20:57:33,540 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 20:57:36,771 - INFO -  Conectado a Snowflake
+2026-04-10 20:57:37,266 - WARNING -  Aviso en tabla ANALYTICS.DIM_CUSTOMER: 003041 (42710): 01c3a03e-0001-5300-0001-1d3a0002241a: SQL compilation error:
+Table 'DIM_CUSTOMER' already exists, but current role has no privileges on it. If this is unexpected and you cannot resolve this problem, contact your system administrator. ACCOUNTADMIN role may be required to manage the privileges on the object.
+2026-04-10 20:57:37,543 - WARNING -  Aviso en tabla ANALYTICS.DIM_DRIVER: 003041 (42710): 01c3a03e-0001-5324-0001-1d3a000261e6: SQL compilation error:
+Table 'DIM_DRIVER' already exists, but current role has no privileges on it. If this is unexpected and you cannot resolve this problem, contact your system administrator. ACCOUNTADMIN role may be required to manage the privileges on the object.
+2026-04-10 20:57:37,806 - WARNING -  Aviso en tabla ANALYTICS.FACT_DELIVERIES: 003041 (42710): 01c3a03e-0001-5300-0001-1d3a0002241e: SQL compilation error:
+Table 'FACT_DELIVERIES' already exists, but current role has no privileges on it. If this is unexpected and you cannot resolve this problem, contact your system administrator. ACCOUNTADMIN role may be required to manage the privileges on the object.
+2026-04-10 20:57:37,806 - INFO -  Iniciando extracción de datos...
+2026-04-10 20:57:43,893 - INFO -  Extraídos 400001 registros
+2026-04-10 20:57:43,894 - INFO -  Iniciando transformación de datos...
+2026-04-10 20:57:44,360 - INFO -  Transformados 222867 registros
+2026-04-10 20:57:44,360 - INFO -  Cargando dimensiones...
+2026-04-10 20:57:44,541 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c3a03e-0001-5324-0001-1d3a000261ea: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.DIM_CUSTOMER' does not exist or not authorized.
+2026-04-10 20:57:44,627 - INFO -  Cargando tabla de hechos...
+2026-04-10 20:58:13,565 - ERROR -  Error cargando hechos: 002003 (42S02): 01c3a03e-0001-5300-0001-1d3a00022426: SQL compilation error:
+Table 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:58:14,098 - ERROR -  Error calculando totales: 002003 (42S02): 01c3a03e-0001-5324-0001-1d3a000261f2: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.FACT_DELIVERIES' does not exist or not authorized.
+2026-04-10 20:58:14,241 - INFO -  Conexiones cerradas
+2026-04-10 20:58:14,242 - INFO -  ETL completado en 41.05 segundos
+2026-04-10 20:58:14,242 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 2
+}
+2026-04-10 21:04:49,400 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 21:04:49,400 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 21:04:49,400 - INFO - Presiona Ctrl+C para detener
+2026-04-10 21:04:49,401 - INFO -  Iniciando ETL - Batch ID: 1775865889
+2026-04-10 21:04:49,508 - INFO -  Conectado a PostgreSQL
+2026-04-10 21:04:49,557 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 21:04:49,557 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 21:04:53,304 - ERROR -  Error en conexión: 250001 (08001): None: Failed to connect to DB: SLKKNYO-JH52288.snowflakecomputing.com:443. Role 'ACCOUNTADMIN' specified in the connect string is not granted to this user, or is not permitted for the credentials being used. Contact your local system administrator, or attempt to login with another role, e.g. PUBLIC.
+2026-04-10 21:09:41,265 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 21:09:41,266 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 21:09:41,266 - INFO - Presiona Ctrl+C para detener
+2026-04-10 21:09:41,266 - INFO -  Iniciando ETL - Batch ID: 1775866181
+2026-04-10 21:09:41,437 - INFO -  Conectado a PostgreSQL
+2026-04-10 21:09:41,510 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 21:09:41,511 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 21:09:44,787 - INFO -  Conectado a Snowflake
+2026-04-10 21:09:45,267 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-10 21:09:45,457 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-10 21:09:45,650 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-10 21:09:45,650 - INFO -  Iniciando extracción de datos...
+2026-04-10 21:09:51,826 - INFO -  Extraídos 400001 registros
+2026-04-10 21:09:51,826 - INFO -  Iniciando transformación de datos...
+2026-04-10 21:09:52,369 - INFO -  Transformados 222867 registros
+2026-04-10 21:09:52,370 - INFO -  Cargando dimensiones...
+2026-04-10 21:09:54,176 - ERROR -  Error cargando dimensiones: 100072 (22000): 01c3a04a-0001-5324-0001-1d3a00026242: DML operation to table ANALYTICS.DIM_CUSTOMER failed on column CUSTOMER_KEY with error: NULL result in a non-nullable column
+2026-04-10 21:09:54,313 - INFO -  Cargando tabla de hechos...
+2026-04-10 21:17:59,670 - INFO -  Cargados 222867 registros en ANALYTICS.FACT_DELIVERIES
+2026-04-10 21:18:00,276 - INFO -  Totales diarios calculados
+2026-04-10 21:18:00,538 - INFO -  Conexiones cerradas
+2026-04-10 21:18:00,539 - INFO -  ETL completado en 499.27 segundos
+2026-04-10 21:18:00,540 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 222867,
+  "errors": 1
+}
+2026-04-10 21:24:54,677 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 21:24:54,679 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 21:24:54,680 - INFO - Presiona Ctrl+C para detener
+2026-04-10 21:24:54,683 - INFO -  Iniciando ETL - Batch ID: 1775867094
+2026-04-10 21:24:54,833 - INFO -  Conectado a PostgreSQL
+2026-04-10 21:24:54,895 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 21:24:54,901 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 21:24:58,376 - INFO -  Conectado a Snowflake
+2026-04-10 21:24:58,967 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-10 21:24:59,167 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-10 21:24:59,383 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-10 21:24:59,383 - INFO -  Iniciando extracción de datos...
+2026-04-10 21:25:07,237 - INFO -  Extraídos 400001 registros
+2026-04-10 21:25:07,238 - INFO -  Iniciando transformación de datos...
+2026-04-10 21:25:07,877 - INFO -  Transformados 222867 registros
+2026-04-10 21:25:07,878 - INFO -  Cargando dimensiones...
+2026-04-10 22:01:23,800 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 22:01:23,801 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 22:01:23,801 - INFO - Presiona Ctrl+C para detener
+2026-04-10 22:01:23,801 - INFO -  Iniciando ETL - Batch ID: 1775869283
+2026-04-10 22:01:24,098 - INFO -  Conectado a PostgreSQL
+2026-04-10 22:01:24,179 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 22:01:24,181 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 22:04:39,501 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 22:04:39,501 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 22:04:39,501 - INFO - Presiona Ctrl+C para detener
+2026-04-10 22:04:39,501 - INFO -  Iniciando ETL - Batch ID: 1775869479
+2026-04-10 22:04:39,647 - INFO -  Conectado a PostgreSQL
+2026-04-10 22:04:39,709 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 22:04:39,711 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 22:04:42,958 - INFO -  Conectado a Snowflake
+2026-04-10 22:04:43,558 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-10 22:04:43,774 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-10 22:04:43,980 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-10 22:04:43,980 - INFO -  Iniciando extracción de datos...
+2026-04-10 22:04:50,089 - INFO -  Extraídos 400001 registros
+2026-04-10 22:04:50,089 - INFO -  Iniciando transformación de datos...
+2026-04-10 22:04:50,516 - INFO -  Transformados 222867 registros
+2026-04-10 22:04:50,517 - INFO -  Cargando dimensiones...
+2026-04-10 22:12:21,536 - ERROR -  Error cargando dimensiones: 002003 (42S02): 01c3a088-0001-5324-0001-1d3a0002adca: SQL compilation error:
+Object 'FLEETLOGIX_DW.ANALYTICS.DIM_CUSTOMER' does not exist or not authorized.
+2026-04-10 22:12:21,668 - INFO -  Cargando tabla de hechos...
+2026-04-10 22:13:56,960 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-10 22:13:56,960 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-10 22:13:56,960 - INFO - Presiona Ctrl+C para detener
+2026-04-10 22:13:56,960 - INFO -  Iniciando ETL - Batch ID: 1775870036
+2026-04-10 22:13:57,136 - INFO -  Conectado a PostgreSQL
+2026-04-10 22:13:57,182 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-10 22:13:57,182 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-10 22:14:00,314 - INFO -  Conectado a Snowflake
+2026-04-10 22:14:00,866 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-10 22:14:01,077 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-10 22:14:01,287 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-10 22:14:01,287 - INFO -  Iniciando extracción de datos...
+2026-04-10 22:14:07,209 - INFO -  Extraídos 400001 registros
+2026-04-10 22:14:07,209 - INFO -  Iniciando transformación de datos...
+2026-04-10 22:14:07,799 - INFO -  Transformados 222867 registros
+2026-04-10 22:14:07,799 - INFO -  Cargando dimensiones...
+2026-04-10 22:16:23,169 - INFO -  Dimensiones actualizadas
+2026-04-10 22:16:23,215 - INFO -  Cargando tabla de hechos...
+2026-04-10 22:24:02,182 - INFO -  Cargados 222867 registros en ANALYTICS.FACT_DELIVERIES
+2026-04-10 22:24:03,110 - INFO -  Totales diarios calculados
+2026-04-10 22:24:03,255 - INFO -  Conexiones cerradas
+2026-04-10 22:24:03,256 - INFO -  ETL completado en 606.30 segundos
+2026-04-10 22:24:03,256 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 222867,
+  "errors": 0
+}
+2026-04-12 09:43:09,065 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 09:43:09,065 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 09:43:09,065 - INFO - Presiona Ctrl+C para detener
+2026-04-12 09:43:09,065 - INFO -  Iniciando ETL - Batch ID: 1775997789
+2026-04-12 09:43:09,216 - INFO -  Conectado a PostgreSQL
+2026-04-12 09:43:09,267 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 09:43:09,267 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 09:43:12,927 - INFO -  Conectado a Snowflake
+2026-04-12 09:43:13,573 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 09:43:13,785 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 09:43:14,003 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 09:43:14,003 - INFO -  Iniciando extracción de datos...
+2026-04-12 09:43:19,840 - INFO -  Extraídos 400001 registros
+2026-04-12 09:43:19,840 - INFO -  Iniciando transformación de datos...
+2026-04-12 09:43:20,244 - INFO -  Transformados 222867 registros
+2026-04-12 09:43:20,245 - INFO -  Cargando dimensiones...
+2026-04-12 09:44:59,991 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 09:45:00,031 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 09:45:21,753 - INFO -  Creando archivo local temporal: fact_deliveries_1775997789.csv
+2026-04-12 09:45:23,071 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 09:45:23,699 - ERROR -  Error en carga Data Lake / Snowflake: Failed to upload fact_deliveries_1775997789.csv to fleetlogix-datalake-catrio/raw/facts/fact_deliveries_1775997789.csv: An error occurred (InvalidAccessKeyId) when calling the CreateMultipartUpload operation: The AWS Access Key Id you provided does not exist in our records.
+2026-04-12 09:45:24,733 - INFO -  Totales diarios calculados
+2026-04-12 09:45:24,889 - INFO -  Conexiones cerradas
+2026-04-12 09:45:24,890 - INFO -  ETL completado en 135.83 segundos
+2026-04-12 09:45:24,890 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-12 09:58:30,753 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 09:58:30,753 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 09:58:30,753 - INFO - Presiona Ctrl+C para detener
+2026-04-12 09:58:30,753 - INFO -  Iniciando ETL - Batch ID: 1775998710
+2026-04-12 09:58:30,882 - INFO -  Conectado a PostgreSQL
+2026-04-12 09:58:30,936 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 09:58:30,936 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 09:58:34,000 - INFO -  Conectado a Snowflake
+2026-04-12 09:58:34,567 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 09:58:34,767 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 09:58:34,997 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 09:58:34,998 - INFO -  Iniciando extracción de datos...
+2026-04-12 09:58:40,340 - INFO -  Extraídos 400001 registros
+2026-04-12 09:58:40,340 - INFO -  Iniciando transformación de datos...
+2026-04-12 09:58:40,779 - INFO -  Transformados 222867 registros
+2026-04-12 09:58:40,779 - INFO -  Cargando dimensiones...
+2026-04-12 10:00:21,794 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 10:00:21,837 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 10:00:42,706 - INFO -  Creando archivo local temporal: fact_deliveries_1775998710.csv
+2026-04-12 10:00:43,978 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 10:00:45,213 - ERROR -  Error en carga Data Lake / Snowflake: Failed to upload fact_deliveries_1775998710.csv to fleetlogix-datalake-catrio/raw/facts/fact_deliveries_1775998710.csv: An error occurred (InvalidAccessKeyId) when calling the CreateMultipartUpload operation: The AWS Access Key Id you provided does not exist in our records.
+2026-04-12 10:00:46,039 - INFO -  Totales diarios calculados
+2026-04-12 10:00:46,196 - INFO -  Conexiones cerradas
+2026-04-12 10:00:46,196 - INFO -  ETL completado en 135.44 segundos
+2026-04-12 10:00:46,196 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-12 10:04:44,551 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 10:04:44,551 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 10:04:44,551 - INFO - Presiona Ctrl+C para detener
+2026-04-12 10:04:44,551 - INFO -  Iniciando ETL - Batch ID: 1775999084
+2026-04-12 10:04:44,658 - INFO -  Conectado a PostgreSQL
+2026-04-12 10:04:44,703 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 10:04:44,703 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 10:04:47,866 - INFO -  Conectado a Snowflake
+2026-04-12 10:04:48,284 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 10:04:48,479 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 10:04:48,694 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 10:04:48,694 - INFO -  Iniciando extracción de datos...
+2026-04-12 10:04:54,349 - INFO -  Extraídos 400001 registros
+2026-04-12 10:04:54,349 - INFO -  Iniciando transformación de datos...
+2026-04-12 10:04:54,857 - INFO -  Transformados 222867 registros
+2026-04-12 10:04:54,857 - INFO -  Cargando dimensiones...
+2026-04-12 10:06:34,574 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 10:06:34,607 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 10:06:55,337 - INFO -  Creando archivo local temporal: fact_deliveries_1775999084.csv
+2026-04-12 10:06:56,583 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 10:06:57,807 - ERROR -  Error en carga Data Lake / Snowflake: Failed to upload fact_deliveries_1775999084.csv to fleetlogix-datalake-catrio/raw/facts/fact_deliveries_1775999084.csv: An error occurred (InvalidAccessKeyId) when calling the CreateMultipartUpload operation: The AWS Access Key Id you provided does not exist in our records.
+2026-04-12 10:06:58,692 - INFO -  Totales diarios calculados
+2026-04-12 10:06:58,825 - INFO -  Conexiones cerradas
+2026-04-12 10:06:58,825 - INFO -  ETL completado en 134.27 segundos
+2026-04-12 10:06:58,825 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-12 10:14:41,981 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 10:14:41,981 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 10:14:41,981 - INFO - Presiona Ctrl+C para detener
+2026-04-12 10:14:41,981 - INFO -  Iniciando ETL - Batch ID: 1775999681
+2026-04-12 10:14:42,093 - INFO -  Conectado a PostgreSQL
+2026-04-12 10:14:42,119 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 10:14:42,119 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 10:14:42,490 - INFO - Found credentials in environment variables.
+2026-04-12 10:14:43,571 - INFO -  Conectado a Snowflake
+2026-04-12 10:14:44,291 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 10:14:44,485 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 10:14:44,699 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 10:14:44,699 - INFO -  Iniciando extracción de datos...
+2026-04-12 10:14:50,054 - INFO -  Extraídos 400001 registros
+2026-04-12 10:14:50,054 - INFO -  Iniciando transformación de datos...
+2026-04-12 10:14:50,432 - INFO -  Transformados 222867 registros
+2026-04-12 10:14:50,432 - INFO -  Cargando dimensiones...
+2026-04-12 10:16:28,570 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 10:16:28,586 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 10:16:50,088 - INFO -  Creando archivo local temporal: fact_deliveries_1775999681.csv
+2026-04-12 10:16:51,337 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 10:16:52,572 - ERROR -  Error en carga Data Lake / Snowflake: Failed to upload fact_deliveries_1775999681.csv to fleetlogix-datalake-catrio/raw/facts/fact_deliveries_1775999681.csv: An error occurred (InvalidAccessKeyId) when calling the CreateMultipartUpload operation: The AWS Access Key Id you provided does not exist in our records.
+2026-04-12 10:16:53,623 - INFO -  Totales diarios calculados
+2026-04-12 10:16:53,761 - INFO -  Conexiones cerradas
+2026-04-12 10:16:53,761 - INFO -  ETL completado en 131.78 segundos
+2026-04-12 10:16:53,761 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-12 10:21:53,999 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 10:21:53,999 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 10:21:53,999 - INFO - Presiona Ctrl+C para detener
+2026-04-12 10:21:53,999 - INFO -  Iniciando ETL - Batch ID: 1776000113
+2026-04-12 10:21:54,128 - INFO -  Conectado a PostgreSQL
+2026-04-12 10:21:54,177 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 10:21:54,178 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 10:21:54,534 - INFO - Found credentials in environment variables.
+2026-04-12 10:21:55,615 - INFO -  Conectado a Snowflake
+2026-04-12 10:21:56,174 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 10:21:56,362 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 10:21:56,575 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 10:21:56,575 - INFO -  Iniciando extracción de datos...
+2026-04-12 10:22:02,057 - INFO -  Extraídos 400001 registros
+2026-04-12 10:22:02,057 - INFO -  Iniciando transformación de datos...
+2026-04-12 10:22:02,506 - INFO -  Transformados 222867 registros
+2026-04-12 10:22:02,506 - INFO -  Cargando dimensiones...
+2026-04-12 10:23:42,831 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 10:23:42,870 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 10:24:04,906 - INFO -  Creando archivo local temporal: fact_deliveries_1776000113.csv
+2026-04-12 10:24:06,164 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 10:24:07,426 - ERROR -  Error en carga Data Lake / Snowflake: Failed to upload fact_deliveries_1776000113.csv to fleetlogix-datalake-catrio/raw/facts/fact_deliveries_1776000113.csv: An error occurred (InvalidAccessKeyId) when calling the CreateMultipartUpload operation: The AWS Access Key Id you provided does not exist in our records.
+2026-04-12 10:24:08,376 - INFO -  Totales diarios calculados
+2026-04-12 10:24:08,516 - INFO -  Conexiones cerradas
+2026-04-12 10:24:08,517 - INFO -  ETL completado en 134.52 segundos
+2026-04-12 10:24:08,517 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 0,
+  "errors": 1
+}
+2026-04-12 10:36:40,238 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 10:36:40,254 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 10:36:40,254 - INFO - Presiona Ctrl+C para detener
+2026-04-12 10:36:40,254 - INFO -  Iniciando ETL - Batch ID: 1776001000
+2026-04-12 10:36:40,357 - INFO -  Conectado a PostgreSQL
+2026-04-12 10:36:40,387 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 10:36:40,387 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 10:36:40,757 - INFO - Found credentials in environment variables.
+2026-04-12 10:36:41,763 - INFO -  Conectado a Snowflake
+2026-04-12 10:36:42,331 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 10:36:42,553 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 10:36:42,750 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 10:36:42,750 - INFO -  Iniciando extracción de datos...
+2026-04-12 10:36:48,097 - INFO -  Extraídos 400001 registros
+2026-04-12 10:36:48,098 - INFO -  Iniciando transformación de datos...
+2026-04-12 10:36:48,489 - INFO -  Transformados 222867 registros
+2026-04-12 10:36:48,489 - INFO -  Cargando dimensiones...
+2026-04-12 10:38:25,996 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 10:38:26,030 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 10:38:46,989 - INFO -  Creando archivo local temporal: fact_deliveries_1776001000.csv
+2026-04-12 10:38:48,303 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 10:38:54,811 - INFO -  Archivo subido a S3 exitosamente
+2026-04-12 10:38:54,811 - INFO -  Ejecutando COPY INTO en Snowflake...
+2026-04-12 10:39:00,661 - INFO -  Cargados 222867 registros en Snowflake en tiempo récord
+2026-04-12 10:39:01,493 - INFO -  Totales diarios calculados
+2026-04-12 10:39:01,625 - INFO -  Conexiones cerradas
+2026-04-12 10:39:01,625 - INFO -  ETL completado en 141.37 segundos
+2026-04-12 10:39:01,625 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 222867,
+  "errors": 0
+}
+2026-04-12 12:07:13,293 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 12:07:13,294 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 12:07:13,294 - INFO - Presiona Ctrl+C para detener
+2026-04-12 12:07:13,294 - INFO -  Iniciando ETL - Batch ID: 1776006433
+2026-04-12 12:07:13,405 - INFO -  Conectado a PostgreSQL
+2026-04-12 12:07:13,459 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 12:07:13,459 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 12:07:13,838 - INFO - Found credentials in environment variables.
+2026-04-12 12:07:14,961 - INFO -  Conectado a Snowflake
+2026-04-12 12:07:15,557 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 12:07:15,753 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 12:07:15,974 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 12:07:16,276 - WARNING -  Aviso en tabla ANALYTICS.FACT_TELEMETRY: 003041 (42710): 01c3a96b-0001-539e-0001-1d3a000357b2: SQL compilation error:
+Table 'FACT_TELEMETRY' already exists, but current role has no privileges on it. If this is unexpected and you cannot resolve this problem, contact your system administrator. ACCOUNTADMIN role may be required to manage the privileges on the object.
+2026-04-12 12:07:16,276 - INFO -  Iniciando extracción de datos...
+2026-04-12 12:07:21,829 - INFO -  Extraídos 400001 registros
+2026-04-12 12:07:21,829 - INFO -  Iniciando transformación de datos...
+2026-04-12 12:07:22,220 - INFO -  Transformados 222867 registros
+2026-04-12 12:07:22,220 - INFO -  Cargando dimensiones...
+2026-04-12 12:09:03,141 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 12:09:03,169 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 12:09:27,900 - INFO -  Creando archivo local temporal: fact_deliveries_1776006433.csv
+2026-04-12 12:09:29,281 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 12:09:38,263 - INFO -  Archivo subido a S3 exitosamente
+2026-04-12 12:09:38,263 - INFO -  Ejecutando COPY INTO en Snowflake...
+2026-04-12 12:09:42,991 - INFO -  Cargados 222867 registros en Snowflake en tiempo récord
+2026-04-12 12:09:44,818 - INFO -  Iniciando carga de Telemetría (S3 -> Snowflake)...
+2026-04-12 12:09:48,346 - INFO -  Totales diarios calculados
+2026-04-12 12:09:48,494 - INFO -  Conexiones cerradas
+2026-04-12 12:09:48,494 - INFO -  ETL completado en 155.20 segundos
+2026-04-12 12:09:48,494 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 222867,
+  "errors": 1
+}
+2026-04-12 12:12:41,742 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 12:12:41,742 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 12:12:41,742 - INFO - Presiona Ctrl+C para detener
+2026-04-12 12:12:41,742 - INFO -  Iniciando ETL - Batch ID: 1776006761
+2026-04-12 12:12:41,857 - INFO -  Conectado a PostgreSQL
+2026-04-12 12:12:41,898 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 12:12:41,899 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 12:12:42,319 - INFO - Found credentials in environment variables.
+2026-04-12 12:12:43,455 - INFO -  Conectado a Snowflake
+2026-04-12 12:12:43,854 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 12:12:44,070 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 12:12:44,269 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 12:12:44,476 - INFO -  Tabla ANALYTICS.FACT_TELEMETRY verificada/creada
+2026-04-12 12:12:44,476 - INFO -  Iniciando extracción de datos...
+2026-04-12 12:12:50,286 - INFO -  Extraídos 400001 registros
+2026-04-12 12:12:50,286 - INFO -  Iniciando transformación de datos...
+2026-04-12 12:12:50,696 - INFO -  Transformados 222867 registros
+2026-04-12 12:12:50,696 - INFO -  Cargando dimensiones...
+2026-04-12 12:14:29,601 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 12:14:29,636 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 12:14:50,977 - INFO -  Creando archivo local temporal: fact_deliveries_1776006761.csv
+2026-04-12 12:14:52,441 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 12:15:04,049 - INFO -  Archivo subido a S3 exitosamente
+2026-04-12 12:15:04,049 - INFO -  Ejecutando COPY INTO en Snowflake...
+2026-04-12 12:15:08,475 - INFO -  Cargados 222867 registros en Snowflake en tiempo récord
+2026-04-12 12:15:10,011 - INFO -  Iniciando carga de Telemetría (S3 -> Snowflake)...
+2026-04-12 12:15:13,495 - INFO -  Totales diarios calculados
+2026-04-12 12:15:13,639 - INFO -  Conexiones cerradas
+2026-04-12 12:15:13,639 - INFO -  ETL completado en 151.90 segundos
+2026-04-12 12:15:13,639 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 222867,
+  "errors": 1
+}
+2026-04-12 12:16:59,979 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-12 12:16:59,979 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-12 12:16:59,979 - INFO - Presiona Ctrl+C para detener
+2026-04-12 12:16:59,979 - INFO -  Iniciando ETL - Batch ID: 1776007019
+2026-04-12 12:17:00,074 - INFO -  Conectado a PostgreSQL
+2026-04-12 12:17:00,101 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.10.2, Platform: Windows-10-10.0.26200-SP0
+2026-04-12 12:17:00,101 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-12 12:17:00,479 - INFO - Found credentials in environment variables.
+2026-04-12 12:17:01,606 - INFO -  Conectado a Snowflake
+2026-04-12 12:17:02,002 - INFO -  Tabla ANALYTICS.DIM_CUSTOMER verificada/creada
+2026-04-12 12:17:02,190 - INFO -  Tabla ANALYTICS.DIM_DRIVER verificada/creada
+2026-04-12 12:17:02,386 - INFO -  Tabla ANALYTICS.FACT_DELIVERIES verificada/creada
+2026-04-12 12:17:02,588 - INFO -  Tabla ANALYTICS.FACT_TELEMETRY verificada/creada
+2026-04-12 12:17:02,588 - INFO -  Iniciando extracción de datos...
+2026-04-12 12:17:07,890 - INFO -  Extraídos 400001 registros
+2026-04-12 12:17:07,891 - INFO -  Iniciando transformación de datos...
+2026-04-12 12:17:08,290 - INFO -  Transformados 222867 registros
+2026-04-12 12:17:08,290 - INFO -  Cargando dimensiones...
+2026-04-12 12:18:46,771 - INFO -  Dimensiones actualizadas correctamente
+2026-04-12 12:18:46,805 - INFO -  Iniciando proceso de Data Lake (S3) y Data Warehouse (Snowflake)...
+2026-04-12 12:19:07,480 - INFO -  Creando archivo local temporal: fact_deliveries_1776007019.csv
+2026-04-12 12:19:08,872 - INFO -  Subiendo archivo a AWS S3...
+2026-04-12 12:19:14,806 - INFO -  Archivo subido a S3 exitosamente
+2026-04-12 12:19:14,806 - INFO -  Ejecutando COPY INTO en Snowflake...
+2026-04-12 12:19:19,636 - INFO -  Cargados 222867 registros en Snowflake en tiempo récord
+2026-04-12 12:19:21,159 - INFO -  Iniciando carga de Telemetría (S3 -> Snowflake)...
+2026-04-12 12:19:26,496 - INFO -  Totales diarios calculados
+2026-04-12 12:19:26,653 - INFO -  Conexiones cerradas
+2026-04-12 12:19:26,653 - INFO -  ETL completado en 146.67 segundos
+2026-04-12 12:19:26,653 - INFO -  Métricas: {
+  "records_extracted": 400001,
+  "records_transformed": 222867,
+  "records_loaded": 232867,
+  "errors": 0
+}

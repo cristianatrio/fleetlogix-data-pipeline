@@ -1,0 +1,44 @@
+Documentación Técnica: Arquitectura de Datos y Pipeline ETL para FleetLogix
+📌 Resumen del Proyecto
+El objetivo de este proyecto fue diseñar e implementar una arquitectura de datos moderna y escalable para FleetLogix. Pasamos de tener información fragmentada en distintas bases de datos operacionales a un flujo centralizado en la nube.
+
+El pipeline principal está desarrollado en Python y se encarga de unificar dos mundos: los datos transaccionales tradicionales (ventas, rutas) y la telemetría en tiempo real de los vehículos (IoT), para finalmente disponibilizarlos en un Data Warehouse listo para el análisis en herramientas de BI.
+
+🏗️ Arquitectura y Flujo de Datos
+El diseño sigue las mejores prácticas de la industria, separando claramente las zonas de extracción, almacenamiento temporal y carga final.
+
+Orígenes de Datos (Fuentes Híbridas):
+
+PostgreSQL: Actúa como nuestra base de datos relacional (ERP). De acá extraemos los datos estructurados crudos: información de clientes, conductores y el detalle transaccional de las entregas.
+
+MongoDB Atlas: Actúa como nuestro repositorio NoSQL. Implementamos una simulación de dispositivos IoT que inyecta datos semi-estructurados (JSON) con la telemetría GPS de los camiones (coordenadas, velocidad y temperatura del motor).
+
+Capa de Procesamiento (Python & Pandas):
+
+El orquestador principal es un script de Python orientado a objetos (A3-05_etl_pipeline_estudiantes.py).
+
+Usamos pandas para transformar los datos en memoria: limpiamos nulos, cruzamos tablas, calculamos métricas agregadas (como los totales diarios) y "aplanamos" los JSON complejos de MongoDB a un formato tabular.
+
+Data Lake (AWS S3):
+
+Una vez procesados, los datos se empaquetan en archivos CSV (con identificadores de lote o Batch IDs para auditoría) y se envían a un bucket seguro en Amazon S3 usando la librería boto3. Esto nos sirve como zona de aterrizaje (Landing Zone) y resguardo histórico.
+
+Data Warehouse (Snowflake):
+
+El destino final. Python ejecuta comandos COPY INTO de forma remota para que Snowflake absorba masivamente los datos desde AWS S3 hacia las tablas dimensionales (DIM_CUSTOMER, DIM_DRIVER) y las tablas de hechos (FACT_DELIVERIES, FACT_TELEMETRY).
+
+⚙️ Hitos Técnicos y Desempeño
+Durante la ejecución del último lote de producción, el pipeline demostró un rendimiento excelente:
+
+Integración de Datos No Estructurados: Se logró extraer y aplanar con éxito un lote de 10.000 registros de telemetría desde MongoDB, cumpliendo con el requisito de análisis de datos de sensores IoT.
+
+Velocidad de Carga Masiva: Gracias a la estrategia de usar AWS S3 como puente hacia Snowflake (en lugar de hacer inserts fila por fila), logramos cargar un total combinado de 232.867 registros (222k transaccionales + 10k IoT) en aproximadamente 146 segundos, sin registrar errores en la consola.
+
+Idempotencia: El pipeline está diseñado para poder ejecutarse múltiples veces sin duplicar información, manteniendo la integridad del Data Warehouse.
+
+🛡️ Seguridad y Gobernanza (Lecciones Aprendidas)
+Un desafío clave de la implementación fue la correcta gestión de accesos en la nube.
+
+Gestión de Credenciales: Todas las credenciales críticas (claves de AWS y la URI de conexión a MongoDB Atlas) fueron extraídas del código fuente e implementadas mediante variables de entorno (archivo .env) para evitar vulnerabilidades de seguridad.
+
+Roles en Snowflake: Se detectó y resolvió un conflicto de gobernanza donde la tabla de telemetría había sido creada por el ACCOUNTADMIN, bloqueando la escritura del script. Se aplicó el principio de mínimo privilegio garantizando que el rol de ejecución (ETL_ROLE) tuviera el OWNERSHIP correcto sobre las tablas del esquema de analítica.

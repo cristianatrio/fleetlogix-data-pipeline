@@ -4,6 +4,8 @@ Genera 505000+ registros respetando relaciones y reglas de negocio
 """
 
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import psycopg2
 from psycopg2.extras import execute_batch
 import pandas as pd

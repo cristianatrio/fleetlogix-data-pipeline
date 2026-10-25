@@ -4,6 +4,8 @@ Script para configurar servicios AWS básicos
 """
 
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import boto3
 import json
 import psycopg2

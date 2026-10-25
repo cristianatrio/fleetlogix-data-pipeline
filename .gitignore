@@ -19,3 +19,4 @@ fact_deliveries_*.csv
 
 # Captura con ID de cuenta AWS visible
 documentacion/Captura de pantalla*.png
+.venv/

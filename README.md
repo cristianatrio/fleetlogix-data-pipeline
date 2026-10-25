@@ -1,3 +1,14 @@
+# Proyectos integradores – Data Science (SoyHenry)
+
+**Cristian Atrio** · Este repositorio reúne dos proyectos integradores:
+
+| Proyecto | Carpeta | Tema |
+|---|---|---|
+| **M1 – Conociendo al Cliente 360°** | [`proyecto-integrador-m1/`](proyecto-integrador-m1/) | EDA de clientes de marketing gastronómico e integración con la API de Yelp |
+| **M2 – FleetLogix** | esta raíz (`scripts/`, `lambda_functions/`, `documentacion/`) | Pipeline de datos PostgreSQL/MongoDB → S3 → Snowflake y arquitectura AWS |
+
+---
+
 # FleetLogix – Pipeline de datos y arquitectura cloud
 
 Proyecto Integrador M2 · Data Science – SoyHenry · **Cristian Atrio**
